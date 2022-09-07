@@ -1,6 +1,6 @@
 package edu.pitt.Assignment1;
 import javax.swing.JOptionPane;
-public class AreaAndPerimeterCircle {
+public class Lab2_Problem2 {
 
 	public static void main(String[] args) {
 		// Declare strings for input

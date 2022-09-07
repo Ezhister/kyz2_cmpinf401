@@ -1,6 +1,6 @@
 package edu.pitt.Assignment1;
 import javax.swing.JOptionPane;
-public class PythagoreanTheorem {
+public class Lab2_Problem1 {
 
 	public static void main(String[] args) {
 		// Declare strings for input

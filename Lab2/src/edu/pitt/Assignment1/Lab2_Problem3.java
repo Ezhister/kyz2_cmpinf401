@@ -1,13 +1,13 @@
 package edu.pitt.Assignment1;
 import javax.swing.JOptionPane;
-public class DecomposingMoney {
+public class Lab2_Problem3 {
 
 	public static void main(String[] args) {
 		// Declare strings for input
 		String money;
 	
 			//get input from users 
-	money= JOptionPane.showInputDialog("User, please input a number!");
+	money= JOptionPane.showInputDialog("User, please input a dollar amount from 1 to 9999!");
 	//Convert to int
 	int money_converted=Integer.parseInt(money);
 //Get values of grands, Benjamins, sawbucks, and bucks
