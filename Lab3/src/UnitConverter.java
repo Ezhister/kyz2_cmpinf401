@@ -27,7 +27,7 @@ double number_converted = converter(actual_number,Unit_taken);
 String Unit_converted = unit_converter(Unit_taken);
 
 //Display the end message
-JOptionPane.showMessageDialog(null, actual_number + Unit_taken +" = "+ number_converted + Unit_converted);
+JOptionPane.showMessageDialog(null, actual_number + " "+ Unit_taken +" = "+ number_converted + " "+ Unit_converted);
 	}
 
 	
