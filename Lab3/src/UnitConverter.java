@@ -34,6 +34,7 @@ JOptionPane.showMessageDialog(null, actual_number + " "+ Unit_taken +" = "+ numb
 
 	//1 inch = 2.54 cm   1 m = 1.094 yd  1 oz = 28.35 gm 1 kg= 2.205 lb
 	
+	//Function to convert the number 
 	public static double converter(double Number, String Unit) {
 		
 		if (Unit.equalsIgnoreCase("cm")) {
@@ -71,6 +72,8 @@ JOptionPane.showMessageDialog(null, actual_number + " "+ Unit_taken +" = "+ numb
 		
 		return Number;
 	}
+	
+	//Function to change the unit into the correct unit type
 
 public static String unit_converter(String Unit) {
 		
