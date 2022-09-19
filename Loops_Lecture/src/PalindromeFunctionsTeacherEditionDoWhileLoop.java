@@ -1,6 +1,5 @@
 import javax.swing.JOptionPane;
-public class PalindromeFunctionsTeacherEdition {
-
+public class PalindromeFunctionsTeacherEditionDoWhileLoop {
 
 
 	// What is a palindrome? - a word of a phrase that reads the same backwards and forward
@@ -20,7 +19,7 @@ public class PalindromeFunctionsTeacherEdition {
 		
 		String phrase = "";
 		
-		while(!phrase.equalsIgnoreCase("quit")) {
+		do {
 			phrase = JOptionPane.showInputDialog("Please enter a word or phrase, enter 'quit' to exit: ");
 		
 
@@ -38,6 +37,10 @@ public class PalindromeFunctionsTeacherEdition {
 		
 		}
 		}
+		
+		while(!phrase.equalsIgnoreCase("quit"));
+		
+		//do loop runs code once before checking for conditions, for loop runs a set amount of time, while continues to run until it can't
 		}
 		
 
