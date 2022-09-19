@@ -35,8 +35,8 @@ public class Temp {
 	
 	c1.accelerate(10);
 	System.out.println(c1.speed);
-	c2.accelerate(10);
-	System.out.println(c2.speed);
+	c1.accelerate(20);
+	System.out.println(c1.speed);
 	
 	c1.slowDown(10);
 	System.out.println(c1.speed);
