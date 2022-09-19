@@ -12,8 +12,10 @@ public class DoWhileLoop {
 		
 		do {
 			System.out.println("Hello World");
-		}
-		while (x ==true);
+		} while (x ==true);
+		//This does it once and stops since x isn't true. 
+		
+		
 		}
 
 	}
