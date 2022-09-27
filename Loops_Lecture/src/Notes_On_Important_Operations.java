@@ -17,7 +17,7 @@ public class Notes_On_Important_Operations {
 	//You can save as any file and rename it to get a copy of the file!
 	
 	
-	/* Command line coninue notes!
+	/* Command line continue notes!
 	 *You can run your code in command line
 	 * cd changes directory
 	 * dir is directory
