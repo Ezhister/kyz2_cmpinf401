@@ -6,6 +6,13 @@ import javax.swing.JOptionPane;
 public class Lab5 {
 
 	public static void main(String[] args) {
+		//Create do while loop so code runs once and you can repeat the process again
+		String phrase= ""; //has to be outside code to start
+		
+		do {
+			
+			
+		
 		String Rolls;
 		//Gives the rolls in string, convert to int
 		Rolls= JOptionPane.showInputDialog("User, please input the number of rolls desired!");
@@ -13,7 +20,11 @@ public class Lab5 {
 		Random random= new Random();   //normally the random class is in a different file, but we are calling it from Java
 		//Use RollDice function
 		RollDice(random, Rolls_converted);
+		
+		phrase = JOptionPane.showInputDialog("Please enter 'yes' to roll again");
+	}while(phrase.equalsIgnoreCase("yes"));
 	}
+	
 	
 		
 		public static void RollDice(Random random, int Rolls) {
