@@ -22,7 +22,7 @@ public class Lab5 {
 		RollDice(random, Rolls_converted);
 		
 		phrase = JOptionPane.showInputDialog("Please enter 'yes' to roll again");
-	}while(phrase.equalsIgnoreCase("yes"));
+	}while(phrase.equalsIgnoreCase("yes"));  //remember it's .equalIgnorecase();
 	}
 	
 	
