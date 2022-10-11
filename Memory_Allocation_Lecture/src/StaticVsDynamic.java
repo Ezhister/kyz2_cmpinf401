@@ -5,7 +5,7 @@ public class StaticVsDynamic {
 	
 	public StaticVsDynamic() {
 		this.test = new ArrayList<String>();
-		//ArrayList<String> = new ArrayList<String>(); this redeclares another variable and we use the local variable
+		//ArrayList<String> test = new ArrayList<String>(); this redeclares another variable and we use the local variable
 		//But outside we use the global variable
 		
 		
