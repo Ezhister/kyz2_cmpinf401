@@ -1,9 +1,9 @@
 
 public class MyRectangle {
-	private int startX = 100;
-	private int startY = 50;
-	private int width = 50;
-	private int height = 20;
+	private int startX;
+	private int startY;
+	private int width;
+	private int height;
 	
 	public MyRectangle() {
 		startX = 0;

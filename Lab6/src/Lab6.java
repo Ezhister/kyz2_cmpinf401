@@ -30,14 +30,14 @@ public class Lab6
 
 			// Verify with a pencil and paper which of these should be true and
 			// which should be false.
-			testInside(R1, x1, y1);  
-			testInside(R3, x1, y1);
-			testInside(R1, x2, y2);
-			testInside(R3, x2, y2);
+			testInside(R1, x1, y1);   //inside
+			testInside(R3, x1, y1);   //inside
+			testInside(R1, x2, y2);    //outside
+			testInside(R3, x2, y2);   //inside 
 
 			R1.setSize(120, 240);
 			R3.setPosition(400, 350);
-			testInside(R1, x2, y2);
-			testInside(R3, x2, y2);
+			testInside(R1, x2, y2);  //inside
+			testInside(R3, x2, y2);  //outside
 		}
 	}
