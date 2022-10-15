@@ -1,6 +1,7 @@
 package kyz2_MenuManager;
 
 /**
+ * Class Dessert
  * This class creates a dessert  
  * @author Kyle Zhang
  *

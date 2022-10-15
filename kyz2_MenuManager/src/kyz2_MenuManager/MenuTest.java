@@ -1,6 +1,7 @@
 package kyz2_MenuManager;
 /**
- * This class...
+ * Class MenuTest
+ * Main code, tests menus 
  * @author Kyle Zhang
  *
  */
@@ -19,7 +20,7 @@ public class MenuTest {
 		Menu menu_0 = new Menu("Menu_0");
 		Menu menu_1 = new Menu("Menu_1",Steak, Rice);
 		Menu menu_2 = new Menu("Menu 2", Chicken, Rice, Caesar, Ice_Cream);
-		
+
 		//Get total number of calories
 		int calories_0=menu_0.totalCalories();
 		int calories_1 = menu_1.totalCalories();

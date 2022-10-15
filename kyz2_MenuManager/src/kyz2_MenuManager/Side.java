@@ -1,6 +1,7 @@
 package kyz2_MenuManager;
 
 /**
+ * Class Side
  *This class creates Side
  * @author Kyle Zhang
  *

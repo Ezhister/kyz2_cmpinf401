@@ -1,6 +1,7 @@
 package kyz2_MenuManager;
 
 /**
+ * Class Salad
  * Class that creates Salad
  * @author Kyle Zhang
  *

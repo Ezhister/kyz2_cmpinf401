@@ -1,7 +1,7 @@
 package kyz2_MenuManager;
 
 /**
- * 
+ * Class Entree
  * @author Kyle Zhang
  * This class creates Entree
  */
