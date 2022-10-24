@@ -1,5 +1,5 @@
 
-public class Driver {
+public class Driver_LinkedLists {
 	public static void main(String[] args) {
 		LinkedList401 ll = new LinkedList401();
 		
