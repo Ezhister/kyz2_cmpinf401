@@ -11,18 +11,18 @@ import java.util.ArrayList;
 
 
 public class FileManager {
+	private String path;
+	
+	public FileManager() {
+		this.path = getCurrentWorkingDirectory();
+	}
 
-	public static void main(String[] args) {
 	
-//ArrayList<Entree> entreeArray=readEntrees();
-	
-	
-	} 
 	//Method to read file for an entree
-	public static ArrayList<Entree> readEntrees(String fileName) {
+	public  ArrayList<Entree> readEntrees(String fileName) {
 	  	ArrayList<Entree> entreeArray = new ArrayList<Entree>(); 
 		 try {
-		        FileReader fr = new FileReader(fileName); 
+		        FileReader fr = new FileReader(path + "\\data\\" + fileName); 
 		        BufferedReader br = new BufferedReader(fr); 
 		        String line = null;
 		        //Goes to end of file
@@ -62,7 +62,7 @@ public class FileManager {
 	
 	
 	//Method to read file for a side
-		public static ArrayList<Side> readSides(String fileName) {
+		public  ArrayList<Side> readSides(String fileName) {
 		  	ArrayList<Side> sideArray = new ArrayList<Side>(); 
 			 try {
 			        FileReader fr = new FileReader(fileName); 
@@ -103,7 +103,7 @@ public class FileManager {
 		}
 	
 		//Method to read file for a Salad
-		public static ArrayList<Salad> readSalads(String fileName) {
+		public  ArrayList<Salad> readSalads(String fileName) {
 		  	ArrayList<Salad> saladArray = new ArrayList<Salad>(); 
 			 try {
 			        FileReader fr = new FileReader(fileName); 
@@ -142,7 +142,7 @@ public class FileManager {
 		}	
 		
 		//Method to read file for a Dessert
-		public static ArrayList<Dessert> readDesserts(String fileName) {
+		public  ArrayList<Dessert> readDesserts(String fileName) {
 		  	ArrayList<Dessert> dessertArray= new ArrayList<Dessert>(); 
 			 try {
 			        FileReader fr = new FileReader(fileName); 
@@ -181,69 +181,9 @@ public class FileManager {
 			return dessertArray;
 		}
 		
-		public class MenuRandomize {
-			
 		
-			
-			private ArrayList<Entree> entrees = new ArrayList<Entree>();
-			private ArrayList<Side> sides = new ArrayList<Side>();
-			private ArrayList<Salad> salads = new ArrayList<Salad>();
-			private ArrayList<Dessert> desserts = new ArrayList<Dessert>();
-			private String projectPath;
-			
-			
-			public MenuRandomize(String entreeFile, String sideFile, String saladFile, String dessertFile) {
-			entrees=readEntrees(entreeFile);
-			sides=readSides(sideFile);
-			salads=readSalads(saladFile);
-			desserts=readDesserts(dessertFile);
-			
-			//Where do I put this??
-			projectPath=getCurrentWorkingDirectory();
-				
-			}
-			
-			public Menu randomMenu() {
-			String 	random_name="Random Menu";
-			Entree	random_entree;
-			Side	random_side;
-			Salad	random_salad;
-			Dessert	random_dessert;
-				Random rd = new Random(); 
-					int w =rd.nextInt(2); //From 0-2
-					int x =rd.nextInt(2); 
-					int y =rd.nextInt(2); 
-					int z =rd.nextInt(2); 
-					
-					//get the random element of array list entree, side, salad, dessert
-					random_entree= entrees.get(w);
-					random_side= sides.get(x);
-					random_salad=salads.get(y);
-					random_dessert=desserts.get(z);
-				
-				
-				Menu randomMenu = new Menu(random_name,random_entree,random_side,random_salad,random_dessert);
-				
-				
-				return randomMenu;
-			}
-			
-		}
 
-		public class MenuTester{
-			public static void main(String[] args){
-				
-				//error when doing this
-				projectPath=getCurrentWorkingDirectory();
-				
-				MenuRandomize randomize = new MenuRandomize("data\\entrees.txt",
-					"data\\sides.txt","data\\salads.txt","data\\desserts.txt");
-				Menu myMenu = randomize.randomMenu();
-				System.out.println(myMenu.description()+"\nTotal calories"+
-									myMenu.totalCalories());
-			}
-		}
-
+		
 		
 		private String getCurrentWorkingDirectory() { //to get path
 			String userDirectory = System.getProperty("user.dir");
