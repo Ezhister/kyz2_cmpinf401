@@ -2,9 +2,8 @@ package kyz2_MenuManager;
 
 /**
  * Class Salad
- * Class that creates Salad
  * @author Kyle Zhang
- *
+ *11/1/2022
  */
 public class Salad {
 	//define properties
@@ -13,10 +12,10 @@ public class Salad {
 	private int calories;
 
 	/**
-	 * Constructor for salad based on parameters
-	 * @param name name of salad
-	 * @param description description of salad
-	 * @param calories calories of salad
+	 * Method Salad: Constructor for salad based on parameters
+	 * @param name String name of salad
+	 * @param description String description of salad
+	 * @param calories int calories of salad
 	 */
 	//Constructor
 	public Salad(String name, String description, int calories) {
@@ -26,44 +25,44 @@ public class Salad {
 	}
 	//Getters and setters
 	/** 
-	 * Getter for name 
-	 * @return name for salad
+	 * Method getName: Getter for name 
+	 * @return name String name for salad
 	 */
 	public String getName() {
 		return name;
 	}
 	/**
-	 * Setter for name
-	 * @param name Name of salad
+	 * Method setName: Setter for name
+	 * @param name String name of salad
 	 */
 
 	public void setName(String name) {
 		this.name = name;
 	}
 	/**
-	 * Getter for description
-	 * @return description of salad
+	 * Method getDescription: Getter for description
+	 * @return description String description of salad
 	 */
 	public String getDescription() {
 		return description;
 	}
 	/**
-	 * Setter of description
-	 * @param description description of salad
+	 * Method setDescription: Setter of description
+	 * @param description String description of salad
 	 */
 	public void setDescription(String description) {
 		this.description = description;
 	}
 	/**
-	 * Getter of calories
-	 * @return Calories of salad
+	 * Method getCalories: Getter of calories
+	 * @return calories int calories of salad
 	 */
 	public int getCalories() {
 		return calories;
 	}
 	/**
-	 * Setter of calories
-	 * @param calories of salad
+	 * Method setcalories: Setter of calories
+	 * @param calories int calories of salad
 	 */
 	public void setCalories(int calories) {
 		this.calories = calories;

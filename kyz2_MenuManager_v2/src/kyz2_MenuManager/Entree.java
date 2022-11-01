@@ -3,9 +3,8 @@ package kyz2_MenuManager;
 /**
  * Class Entree
  * @author Kyle Zhang
- * This class creates Entree
+ *11/1/2022
  */
-
 
 public class Entree {
 	//define properties
@@ -15,10 +14,10 @@ public class Entree {
 
 	//Constructor
 	/**
-	 * Constructor for Entree based on parameters
-	 * @param name Name of Entree
-	 * @param description Description of Entree
-	 * @param calories Number of calories in Entree
+	 * Method Entree: Constructor for Entree based on parameters
+	 * @param name String name of Entree
+	 * @param description String description of Entree
+	 * @param calories int number of calories in Entree
 	 */
 	public Entree(String name, String description, int calories) {
 		this.name = name;
@@ -29,43 +28,43 @@ public class Entree {
 
 	}
 	/**
-	 * Getter for name 
-	 * @return Name of Entree
+	 * Method getName: Getter for name 
+	 * @return name String name of Entree
 	 */
 	public String getName() {
 		return name;
 	}
 	/**
-	 * Setter for name
-	 * @param name Name of Entree
+	 *Method setName: Setter for name
+	 * @param name String name of Entree
 	 */
 	public void setName(String name) {
 		this.name = name;
 	}
 	/**
-	 * Getter for description
-	 * @return description of Entree
+	 * Method getDescription: Getter for description
+	 * @return description String description of Entree
 	 */
 	public String getDescription() {
 		return description;
 	}
 	/**
-	 * Setter for description
-	 * @param description Description of Entree
+	 * Method: setDescription: Setter for description
+	 * @param description String description of Entree
 	 */
 	public void setDescription(String description) {
 		this.description = description;
 	}
 	/**
-	 * Getter for calories
-	 * @return calories of entree
+	 * Method getCalories: Getter for calories
+	 * @return calories int calories of entree
 	 */
 	public int getCalories() {
 		return calories;
 	}
 	/**
-	 * Setter for calories
-	 * @param calories calories of entree
+	 * Method setCalories: Setter for calories
+	 * @param calories int calories of entree
 	 */
 	public void setCalories(int calories) {
 		this.calories = calories;

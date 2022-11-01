@@ -2,9 +2,8 @@ package kyz2_MenuManager;
 
 /**
  * Class Menu
- * This class creates a menu based off previously defined classes
  * @author Kyle Zhang
- *
+ *11/1/2022
  */
 public class Menu {
 	//define property
@@ -16,8 +15,8 @@ public class Menu {
 	Side side;
 	Dessert dessert;
 	/**
-	 * Menu with no items on it
-	 * @param name Name of this menu
+	 * Method Menu: Menu with no items on it
+	 * @param name String name of this menu
 	 */
 	//Make methods
 	public Menu(String name) {
@@ -28,10 +27,10 @@ public class Menu {
 		dessert = null;
 	}
 	/**
-	 * Menu for an entree and side
-	 * @param name of Menu
-	 * @param entree Entree
-	 * @param side Side
+	 *Method Menu : Menu for an entree and side
+	 * @param name String name of Menu
+	 * @param entree entree of type Entree
+	 * @param side side of type Side
 	 */
 	public Menu(String name, Entree entree, Side side) {
 		this.name = name;
@@ -43,12 +42,12 @@ public class Menu {
 
 	}
 	/**
-	 * Menu with all items
-	 * @param name of Menu
-	 * @param entree Entree
-	 * @param side Side
-	 * @param salad Salad
-	 * @param dessert Dessert
+	 *Method Menu: Menu with all items
+	 * @param name String name of Menu
+	 * @param entree entree of type Entree
+	 * @param side side of type Side
+	 * @param salad salad of type Salad
+	 * @param dessert dessert of type Dessert
 	 */
 	public Menu(String name, Entree entree, Side side, Salad salad, Dessert dessert) {
 		this.name = name;
@@ -61,8 +60,8 @@ public class Menu {
 
 
 	/**
-	 * Method to obtain total calories in a menu
-	 * @return total calories
+	 * Method totalCalories: Method to obtain total calories in a menu
+	 * @return total int calories total
 	 */
 	public int totalCalories() {
 		int total=0;
@@ -85,8 +84,8 @@ public class Menu {
 		return total;	
 	}
 	/**
-	 * Method to create a description for any menu
-	 * @return Description
+	 * Method description: to create a description for any menu
+	 * @return sentence String description
 	 */
 	//Checking if the item exists before adding to sentence otherwise it's N/A
 	public String description() { 
@@ -130,70 +129,70 @@ public class Menu {
 	}
 	//Getter and setters
 	/**
-	 * Getter for name of menu
-	 * @return name of menu
+	 * Method getName: Getter for name of menu
+	 * @return name String name of menu
 	 */
 	public String getName() {
 		return name;
 	}
 	/**
-	 * Setter for name of menu
-	 * @param name of menu
+	 * Method setName: Setter for name of menu
+	 * @param name String name of menu
 	 */
 	public void setName(String name) {
 		this.name = name;
 	}
 	/**
-	 * Getter for Entree
-	 * @return entree
+	 * Method getEntree: Getter for Entree
+	 * @return entree 
 	 */
 	public Entree getEntree() {
 		return entree;
 	}
 	/**
-	 * Setter for Entre
+	 * Method setEntree: Setter for Entree
 	 * @param entree 
 	 */
 	public void setEntree(Entree entree) {
 		this.entree = entree;
 	}
 	/**
-	 * Getter for salad
+	 * Method getSalad: Getter for salad
 	 * @return salad
 	 */
 	public Salad getSalad() {
 		return salad;
 	}
 	/**
-	 * Setter for salad
+	 * Method setSalad: Setter for salad
 	 * @param salad 
 	 */
 	public void setSalad(Salad salad) {
 		this.salad = salad;
 	}
 	/**
-	 * Getter for side
+	 * Method getSide: Getter for side
 	 * @return side
 	 */
 	public Side getSide() {
 		return side;
 	}
 	/**
-	 * Setter for side
+	 * Method setSide: Setter for side
 	 * @param side
 	 */
 	public void setSide(Side side) {
 		this.side = side;
 	}
 	/**
-	 * Getter for dessert
+	 * Method getDessert: Getter for dessert
 	 * @return dessert
 	 */
 	public Dessert getDessert() {
 		return dessert;
 	}
 	/**
-	 * Setter for dessert
+	 * Method setDessert: Setter for dessert
 	 * @param dessert
 	 */
 	public void setDessert(Dessert dessert) {

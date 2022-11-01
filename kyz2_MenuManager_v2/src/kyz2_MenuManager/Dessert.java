@@ -2,9 +2,8 @@ package kyz2_MenuManager;
 
 /**
  * Class Dessert
- * This class creates a dessert  
  * @author Kyle Zhang
- *
+ *11/1/2022
  */
 public class Dessert {
 
@@ -13,10 +12,10 @@ public class Dessert {
 	private String description;
 	private int calories;
 	/**
-	 *Constructor for dessert based on parameters
-	 * @param name name of dessert
-	 * @param description description of dessert
-	 * @param calories calories of dessert
+	 *Method Dessert: Constructor for Dessert based on parameters
+	 * @param name String name of dessert
+	 * @param description String description of dessert
+	 * @param calories int calories of dessert
 	 */
 	//Constructor
 	public Dessert(String name, String description, int calories) {
@@ -26,44 +25,44 @@ public class Dessert {
 	}
 	//Getters and setters
 	/**
-	 * Getter for name
-	 * @return name of dessert
+	 * Method getName: Getter for name
+	 * @return name String of dessert
 	 */
 	public String getName() {
 		return name;
 	}
 	/**
-	 * Setter of name
-	 * @param name Name of dessert
+	 * Method setName: Setter of name
+	 * @param name String name of dessert
 	 */
 	public void setName(String name) {
 		this.name = name;
 	}
 	/**
-	 *Getter of Description
-	 * @return Description of dessert
+	 *Method getDescription: Getter of Description
+	 * @return description String description of dessert
 	 */
 	public String getDescription() {
 		return description;
 	}
 	/**
-	 * Setter for description
-	 * @param description of dessert
+	 * Method setDescription: Setter for description
+	 * @param String description of dessert
 	 */
 
 	public void setDescription(String description) {
 		this.description = description;
 	}
 	/**
-	 * Getter for calories
-	 * @return calories of dessert
+	 * Method getCalories: Getter for calories
+	 * @return calories int calories of dessert
 	 */
 	public int getCalories() {
 		return calories;
 	}
 	/**
-	 * Setter for calories
-	 * @param calories calories of dessert
+	 * Method setCalories: Setter for calories
+	 * @param calories int calories of dessert
 	 */
 
 	public void setCalories(int calories) {

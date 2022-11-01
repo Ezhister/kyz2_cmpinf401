@@ -1,5 +1,5 @@
-Caesar Salad@@Salad served with caesar salad dressing@200
+Caesar Salad@@Salad served with caesar salad dressing@@200
 Ranch Salad@@Salad served with ranch dressing@@200
-Broccoli Salad@@Salad served with a generous amount of brocolli and your choice of dressing@300
-Egg Salad@@Salad served with 2 eggs mashed and cut up, mixed into the salad and your choice of dressing@300
-Tofu Salad@@Salad served with tofu mixed in and your choice of dressing@300
+Broccoli Salad@@Salad served with a generous amount of brocolli and your choice of dressing@@300
+Egg Salad@@Salad served with 2 eggs mashed and cut up, mixed into the salad and your choice of dressing@@300
+Tofu Salad@@Salad served with tofu mixed in and your choice of dressing@@300

@@ -1,10 +1,11 @@
 package kyz2_MenuManager;
+
 /**
  * Class MenuTest
- * Main code, tests menus 
  * @author Kyle Zhang
- *
+ * 11/1/2022
  */
+
 public class MenuTest {
 
 	public static void main(String[] args) {
