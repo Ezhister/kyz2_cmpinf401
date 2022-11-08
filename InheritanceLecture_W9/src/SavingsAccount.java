@@ -12,7 +12,7 @@ public class SavingsAccount extends Account{
 		accountType = "savings";
 	}
 	
-	@Override
+	@Override // used to check that overrides the withdraw in account. This is punishing someone for withdrawing from a savings account
 	public void withdraw(double amount) {
 		super.withdraw(amount);
 		double penalty = super.getBalance() * PENALTY;
