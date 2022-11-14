@@ -38,6 +38,7 @@ public class Student extends Person{
 		this.fee = fee;
 	}
 	
+	@Override
 	public String toString() {
 		
 		String sb="";

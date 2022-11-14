@@ -1,5 +1,6 @@
 //abstract class, the root 
 //DOES IT NEED A CONSTRUCTOR??
+//abstract classes can't be instantiated 
 public abstract class Person {
 private String name;
 private String address = "String";

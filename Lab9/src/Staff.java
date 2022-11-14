@@ -26,6 +26,7 @@ public void setPay(double pay) {
 	this.pay = pay;
 }
 
+@Override
 public String toString() {
 	String sb="";
 	sb+="School: ";

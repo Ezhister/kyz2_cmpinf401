@@ -5,7 +5,8 @@ import java.awt.event.ActionListener;
 import javax.swing.*; //all swing components
 
 //Eclipse MarketPlace in HELP section can help you find plug ins for anything!!!
-//The window thing is in other, then window builder and 
+//Window Builder doesn't work
+
 public class TestUI {
 
 	public static void main(String[] args) {
