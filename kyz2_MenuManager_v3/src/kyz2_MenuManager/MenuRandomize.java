@@ -2,6 +2,7 @@ package kyz2_MenuManager;
 import java.util.ArrayList;
 import java.util.Random;
 
+//THIS CLASS DOES NOT MATTER TO ASSIGNMENT 3
 /**
  * Class MenuRandomize
  * @author Kyle Zhang
@@ -25,14 +26,40 @@ public class MenuRandomize {
 	 * @param saladFilename a String
 	 * @param dessertFilename a String
 	 */
-	public MenuRandomize(String entreeFilename, String sideFilename, String saladFilename, String dessertFilename) {
+
+
+	//public MenuRandomize(String entreeFilename, String sideFilename, String saladFilename, String dessertFilename) {
+	public MenuRandomize(String dishesFile) {
 		//The static in the read___ methods allow any instance of the filemanager to use these methods
-		FileManager fm = new FileManager();
+		// FileManager fm = new FileManager();
 		//These are arrays with a bunch of entrees, sides, salads, desserts
+		/*
 		entrees=fm.readEntrees(entreeFilename);
 		sides=fm.readSides(sideFilename);
 		salads=fm.readSalads(saladFilename);
 		desserts=fm.readDesserts(dessertFilename);
+		 */
+		ArrayList<MenuItem> dishes = FileManager.readItems(dishesFile);
+		System.out.println(dishes);
+		for(MenuItem item : dishes) {
+
+			System.out.println(item);
+			if(item instanceof Entree) {
+				entrees.add((Entree) item);
+			}
+
+			if(item instanceof Side) {
+				sides.add((Side) item);
+			}
+
+			if(item instanceof Salad) {
+				salads.add((Salad) item);
+			}
+
+			if(item instanceof Dessert) {
+				desserts.add((Dessert) item);
+			}
+		}
 	}
 
 
@@ -48,10 +75,10 @@ public class MenuRandomize {
 		Salad	random_salad;
 		Dessert	random_dessert;
 		Random rd = new Random(); 
-		int w =rd.nextInt(5); //From 0-5, as 5 is excluded
-		int x =rd.nextInt(5); 
-		int y =rd.nextInt(5); 
-		int z =rd.nextInt(5); 
+		int w =rd.nextInt(entrees.size()); //From 0-5, as 5 is excluded
+		int x =rd.nextInt(sides.size()); 
+		int y =rd.nextInt(salads.size()); 
+		int z =rd.nextInt(desserts.size()); 
 
 		//get the random element of array list entree, side, salad, dessert
 		random_entree= entrees.get(w);

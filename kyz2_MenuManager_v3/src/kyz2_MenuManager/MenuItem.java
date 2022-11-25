@@ -7,9 +7,9 @@ public class MenuItem {  //Superclass for entree, side, salad, dessert (all 4 ex
 	private int calories;
 	//new property
 	private double price; 
-	
+
 	//Set up Constructor to also inherit
-	
+
 	public MenuItem(String name, String desc, int cal, double price) {
 		this.name =name;
 		this.description = desc;
@@ -17,10 +17,10 @@ public class MenuItem {  //Superclass for entree, side, salad, dessert (all 4 ex
 		this.price = price;
 	}
 
-	
-	
-	
-	
+
+
+
+
 	//Getters and Setters
 	public String getName() {
 		return name;
@@ -53,7 +53,7 @@ public class MenuItem {  //Superclass for entree, side, salad, dessert (all 4 ex
 	public void setPrice(double price) {
 		this.price = price;
 	}
-	
+
 	@Override
 	public String toString() {
 		return this.name;

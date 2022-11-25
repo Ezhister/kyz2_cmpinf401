@@ -11,9 +11,9 @@ public class Dessert extends MenuItem{
 	/*private String name;
 	private String description;
 	private int calories;
-	*/
-	
-	
+	 */
+
+
 	/**
 	 *Method Dessert: Constructor for Dessert based on parameters
 	 * @param name String name of dessert
@@ -24,17 +24,17 @@ public class Dessert extends MenuItem{
 	public Dessert(String name, String description, int calories, double price) {
 		super(name, description, calories, price);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
 	
 	
 	
