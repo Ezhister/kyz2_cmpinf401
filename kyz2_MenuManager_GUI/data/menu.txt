@@ -1,19 +1,22 @@
-The name of the menu is Hm
-Dish 1: Curry ChickenDescription: Curry marinated chicken, cooked slowly in wood fire ovenCalories: 430Price: 11.5
-Dish 2: Grilled PotatoesDescription: Boiled potatoes grilled in oven with a touch of butterCalories: 270Price: 5.0
-Dish 3: QuinoaDescription: Quinoa lightly saltedCalories: 120Price: 4.0
-Dish 4: Chocolate CakeDescription: Low calorie chocolate cakeCalories: 175Price: 7.0
- Total Calories: 430270120175
- Total Price: 11.55.04.07.0The name of the menu is Menu
-Dish 1: Sirloin SteakDescription: A delicious piece of 1/2 a pound of our carefully selected meat grilled and seasoned. Choose how much you want it cookedCalories: 820Price: 22.5
-Dish 2: Grilled PotatoesDescription: Boiled potatoes grilled in oven with a touch of butterCalories: 270Price: 5.0
-Dish 3: Soy bean sprout with cornDescription: Soy bean sprout with corn and olivesCalories: 210Price: 5.0
-Dish 4: Ice CreamDescription: Choose among vanilla, mango, pineapple, chocolate and orange ice creamCalories: 250Price: 3.2
- Total Calories: 820270210250
- Total Price: 22.55.05.03.2The name of the menu is Name
-Dish 1: Curry ChickenDescription: Curry marinated chicken, cooked slowly in wood fire ovenCalories: 430Price: 11.5
-Dish 2: QuinoaDescription: QuinoaCalories: 140Price: 4.7
-Dish 3: Mixed VegetablesDescription: Includes small tomatoes, lettuce, cucumber, spinach and arugulaCalories: 90Price: 7.0
-Dish 4: Chocolate CakeDescription: Low calorie chocolate cakeCalories: 175Price: 7.0
+
+The name of the menu is z
+Dish 1: Sirloin Steak Description: A delicious piece of 1/2 a pound of our carefully selected meat grilled and seasoned. Choose how much you want it cooked Calories: 820 Price: 22.5
+Dish 2: Rice Description: Plain rice Calories: 160 Price: 3.5
+Dish 3: Mixed Vegetables Description: Includes small tomatoes, lettuce, cucumber, spinach and arugula Calories: 90 Price: 7.0
+Dish 4: Ice Cream Description: Choose among vanilla, mango, pineapple, chocolate and orange ice cream Calories: 250 Price: 3.2
+ Total Calories: 82016090250
+ Total Price: 22.53.57.03.2
+The name of the menu is as
+Dish 1: Curry Chicken Description: Curry marinated chicken, cooked slowly in wood fire oven Calories: 430 Price: 11.5
+Dish 2: Quinoa Description: Quinoa Calories: 140 Price: 4.7
+Dish 3: Mixed Vegetables Description: Includes small tomatoes, lettuce, cucumber, spinach and arugula Calories: 90 Price: 7.0
+Dish 4: Chocolate Cake Description: Low calorie chocolate cake Calories: 175 Price: 7.0
  Total Calories: 43014090175
  Total Price: 11.54.77.07.0
+The name of the menu is ax
+Dish 1: Sirloin Steak Description: A delicious piece of 1/2 a pound of our carefully selected meat grilled and seasoned. Choose how much you want it cooked Calories: 820 Price: 22.5
+Dish 2: Grilled Potatoes Description: Boiled potatoes grilled in oven with a touch of butter Calories: 270 Price: 5.0
+Dish 3: Soy bean sprout with corn Description: Soy bean sprout with corn and olives Calories: 210 Price: 5.0
+Dish 4: Ice Cream Description: Choose among vanilla, mango, pineapple, chocolate and orange ice cream Calories: 250 Price: 3.2
+ Total Calories: 820270210250
+ Total Price: 22.55.05.03.2

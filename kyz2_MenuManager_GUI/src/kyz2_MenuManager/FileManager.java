@@ -88,14 +88,14 @@ public class FileManager {
 			for (int i=0; i<menus.size(); i++) {
 				Menu element = menus.get(i);
 				//Each menu has entree, side, salad, dessert
-				bw.write("The name of the menu is " + element.getName() + "\nDish 1: " + element.getEntree().getName() + "Description: " + element.getEntree().getDescription()
-						+ "Calories: " + element.getEntree().getCalories() + "Price: " + element.getEntree().getPrice());
-				bw.write("\nDish 2: "+ element.getSide().getName() + "Description: " + element.getSide().getDescription()
-						+ "Calories: " + element.getSide().getCalories() + "Price: " + element.getSide().getPrice());
-				bw.write("\nDish 3: "+ element.getSalad().getName() + "Description: " + element.getSalad().getDescription()
-						+ "Calories: " + element.getSalad().getCalories() + "Price: " + element.getSalad().getPrice());		
-				bw.write("\nDish 4: "+ element.getDessert().getName() + "Description: " + element.getDessert().getDescription()
-						+ "Calories: " + element.getDessert().getCalories() + "Price: " + element.getDessert().getPrice());		
+				bw.write("\nThe name of the menu is " + element.getName() + "\nDish 1: " + element.getEntree().getName() + " Description: " + element.getEntree().getDescription()
+						+ " Calories: " + element.getEntree().getCalories() + " Price: " + element.getEntree().getPrice());
+				bw.write("\nDish 2: "+ element.getSide().getName() + " Description: " + element.getSide().getDescription()
+						+ " Calories: " + element.getSide().getCalories() + " Price: " + element.getSide().getPrice());
+				bw.write("\nDish 3: "+ element.getSalad().getName() + " Description: " + element.getSalad().getDescription()
+						+ " Calories: " + element.getSalad().getCalories() + " Price: " + element.getSalad().getPrice());		
+				bw.write("\nDish 4: "+ element.getDessert().getName() + " Description: " + element.getDessert().getDescription()
+						+ " Calories: " + element.getDessert().getCalories() + " Price: " + element.getDessert().getPrice());		
 
 				//total calories
 				bw.write("\n Total Calories: " + element.getEntree().getCalories() + element.getSide().getCalories() +element.getSalad().getCalories() + element.getDessert().getCalories());
