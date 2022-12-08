@@ -1,0 +1,15 @@
+
+The name of the menu is asd
+Dish 1: Sirloin Steak Description: A delicious piece of 1/2 a pound of our carefully selected meat grilled and seasoned. Choose how much you want it cooked Calories: 820 Price: 22.5
+Dish 2: Rice Description: Plain rice Calories: 160 Price: 3.5
+Dish 3: Mixed Vegetables Description: Includes small tomatoes, lettuce, cucumber, spinach and arugula Calories: 90 Price: 7.0
+Dish 4: Ice Cream Description: Choose among vanilla, mango, pineapple, chocolate and orange ice cream Calories: 250 Price: 3.2
+ Total Calories: 1320
+ Total Price: 36.20
+The name of the menu is asdad
+Dish 1: Sirloin Steak Description: A delicious piece of 1/2 a pound of our carefully selected meat grilled and seasoned. Choose how much you want it cooked Calories: 820 Price: 22.5
+Dish 2: Rice Description: Plain rice Calories: 160 Price: 3.5
+Dish 3: Mixed Vegetables Description: Includes small tomatoes, lettuce, cucumber, spinach and arugula Calories: 90 Price: 7.0
+Dish 4: Ice Cream Description: Choose among vanilla, mango, pineapple, chocolate and orange ice cream Calories: 250 Price: 3.2
+ Total Calories: 1320
+ Total Price: 36.20
